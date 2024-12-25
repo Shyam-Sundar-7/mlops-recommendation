@@ -1,7 +1,7 @@
 .PHONY: style check_code_quality
 
 export PYTHONPATH = .
-check_dirs := src
+check_dirs := mlops
 
 style:
 	uv run ruff format  $(check_dirs)

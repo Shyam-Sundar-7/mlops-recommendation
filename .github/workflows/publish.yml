@@ -25,7 +25,7 @@ jobs:
       - name: 💅 Format
         run: uv run ruff format
 
-      - name: 🚀 Publish
-        run: |
-          uv build
-          uv publish --token ${{ secrets.UV_PUBLISH_TOKEN }}
+      # - name: 🚀 Publish
+      #   run: |
+      #     uv build
+      #     uv publish --token ${{ secrets.UV_PUBLISH_TOKEN }}
